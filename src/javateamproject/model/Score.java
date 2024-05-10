@@ -50,7 +50,7 @@ public class Score implements Comparable<Score>{
         return Integer.compare(this.round,o.round);
     }
 
-    public static String calculateGrade(int score,SubjectType subjectType){
+    public String calculateGrade(int score,SubjectType subjectType){
         String grade;
         if(subjectType.equals(SubjectType.MUST)){
             if(score>=95) grade = "A";
