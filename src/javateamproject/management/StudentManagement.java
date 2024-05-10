@@ -9,7 +9,7 @@ import javateamproject.type.SubjectType;
 import java.util.*;
 
 public class StudentManagement {
-    private static Scanner sc;
+    Scanner sc;
     SubjectManagement subjectManagement;
     Store store;
     public StudentManagement(SubjectManagement subjectManagement){
