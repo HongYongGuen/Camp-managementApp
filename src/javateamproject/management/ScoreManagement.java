@@ -13,7 +13,7 @@ import java.util.Scanner;
 
 public class ScoreManagement {
 
-    private static Scanner sc ;
+    Scanner sc ;
     StudentManagement studentManagement;
     SubjectManagement subjectManagement;
 

@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class SubjectManagement {
-    private static Scanner sc = new Scanner(System.in);
+    Scanner sc = new Scanner(System.in);
     Store store;
     StudentManagement studentManagement;
     ScoreManagement scoreManagement;
